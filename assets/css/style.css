@@ -1,23 +1,29 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&family=Roboto&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     border: none;
 }
 
-.logo{
+body{
+    font-family: Gemunu libre, sans-serif ;
+}
+
+.logo {
     float: left;
     font-size: large;
     margin-left: 30px;
 }
 
-#nav-bar{
+#nav-bar {
     font-size: 110%;
     letter-spacing: 4px;
     text-transform: uppercase;
 }
 
-#nav-bar li{
+#nav-bar li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
@@ -26,4 +32,6 @@
 
 #nav-bar a {
     text-decoration: none;
-    color: inherit;
+    color: black;
+}
+    

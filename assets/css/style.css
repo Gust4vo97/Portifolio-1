@@ -5,36 +5,44 @@
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
+    
 }
 
 body{
     font-family: Gemunu libre, sans-serif;
     font-weight: 300;
-    
-
 }
+
+/*Header section style*/
 
 .logo {
     float: left;
-    font-size: large;
+    font-size: 120%;
     margin-left: 30px;
+    margin-bottom: 5px;
+    
 }
 
-#nav-bar {
-    font-size: 110%;
+#navbar {
+    font-size: 120%;
     letter-spacing: 4px;
     text-transform: uppercase;
 }
 
-#nav-bar li {
+#navbar li {
     float: right;
     list-style-type: none;
-    margin-right: 30px;
-    margin-top: 15px;
+    margin: 15px 30px
 }
 
-#nav-bar a {
+#navbar a {
     text-decoration: none;
     color: black;
 }
-    
+
+#navbar a:hover{
+    border-bottom: 1px solid black;
+}
+
+

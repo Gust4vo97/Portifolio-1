@@ -38,7 +38,8 @@ body{
 #navbar li {
     float: right;
     list-style-type: none;
-    margin: 15px 30px
+    margin: 15px 30px;
+    
 }
 
 #navbar a {
@@ -49,6 +50,44 @@ body{
 #navbar a:hover{
     border-bottom: 1px solid black;
 }
+
+.active{
+    border-bottom: 1px solid black;
+}
+
+/* Main page */
+
+#image-game{
+    height: 600px;
+    width: 100%;
+    background: url(/assets/images/gamer-1.jpg) center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    border-radius: 50%;
+}
+
+#main-game{
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    
+   /*animation effect */
+    animation-name: game-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes game-zoom {
+    from{
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+
+}
+
 
 
 

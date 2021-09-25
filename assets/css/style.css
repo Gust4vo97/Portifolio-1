@@ -16,11 +16,16 @@ body{
 
 /*Header section style*/
 
+#logo, #navbar {
+    line-height: 60px;
+}
+
 .logo {
     float: left;
     font-size: 120%;
     margin-left: 30px;
     margin-bottom: 5px;
+    cursor: pointer;
     
 }
 
@@ -44,5 +49,6 @@ body{
 #navbar a:hover{
     border-bottom: 1px solid black;
 }
+
 
 

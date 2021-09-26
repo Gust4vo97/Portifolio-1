@@ -5,10 +5,10 @@
     margin: 0;
     padding: 0;
     border: none;
-    box-sizing: border-box;
+    
     
 }
-
+ 
 body{
     font-family: Gemunu libre, sans-serif;
     font-weight: 300;
@@ -60,34 +60,17 @@ body{
 #image-game{
     height: 600px;
     width: 100%;
-    background: url(/assets/images/gamer-1.jpg) center;
+    background: url(/assets/images/gaming.jpg) center;
     background-repeat: no-repeat;
-    background-size: auto;
-    border-radius: 50%;
+    background-size: center;
+    
 }
 
 #main-game{
     height: 600px;
     width: 100%;
-    overflow: hidden;
-    
-   /*animation effect */
-    animation-name: game-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
+    overflow: hidden;   
 }
-
-
-@keyframes game-zoom {
-    from{
-        transform: scale(1);
-    }
-    to {
-        transform: scale(1.1);
-    }
-
-}
-
 
 
 

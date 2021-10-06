@@ -94,4 +94,34 @@ a{
     margin-top: 1em;
     /* position: absolute; */
 }
+.mob-list a{
+    list-style: none;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+.mob-menu{
+    position:absolute;
+    right: 1em;
+    top: 0.1em;
+}
+
+/* footer */
+footer ul{
+    background-color: darkgray;
+    border-radius: 5px;
+    padding: 0.25em 0em;
+    margin-top: 0.75em;
+    text-align: center;
+}
+footer ul li{
+    display: inline;
+    list-style: none;
+    padding: 0em 1em;
+    font-size: 230%;
+}
+footer ul li a{
+    text-align: center;
+}
 

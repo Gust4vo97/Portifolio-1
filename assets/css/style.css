@@ -58,7 +58,7 @@ a{
 }
 .menu ul{
     list-style: none;
-    
+    display: inline;
 }
 .menu ul li{
     display: inline;

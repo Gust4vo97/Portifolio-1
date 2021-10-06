@@ -16,61 +16,27 @@ body{
 
 /*Header section style*/
 
-#logo, #navbar {
-    line-height: 60px;
+*{
+    margin: 0;
+    padding: 0;
+    border: none;   
 }
+body{
+    font-family: Gemunu libre, sans-serif;
+    font-weight: 300;
+    padding: 1em 1em;
 
-.logo {
-    float: left;
-    font-size: 120%;
-    margin-left: 30px;
-    margin-bottom: 5px;
-    cursor: pointer;
-    
 }
-
-#navbar {
-    font-size: 120%;
-    letter-spacing: 4px;
-    text-transform: uppercase;
+header{
+    background-color: rgb(212, 212, 212);
 }
-
-#navbar li {
-    float: right;
-    list-style-type: none;
-    margin: 15px 30px;
-    
-}
-
-#navbar a {
+a{
     text-decoration: none;
     color: black;
 }
 
-#navbar a:hover{
-    border-bottom: 1px solid black;
-}
-
-.active{
-    border-bottom: 1px solid black;
-}
-
 /* Main page */
 
-#image-game{
-    height: 600px;
-    width: 100%;
-    background: url(/assets/images/gaming.jpg) center;
-    background-repeat: no-repeat;
-    background-size: center;
-    
-}
-
-#main-game{
-    height: 600px;
-    width: 100%;
-    overflow: hidden;   
-}
 
 
 

@@ -43,6 +43,19 @@ a{
     width: 120px;
 }
 
+.active{
+    border-top: 2px solid #1B16A4;
+    font-weight: bold;
+}
+.active-mob{
+    color: red;
+    font-weight: bold;
+}
+.menu{
+   position:absolute;
+   right: 1em;
+   top: 2.3em;
+}
 
 
 

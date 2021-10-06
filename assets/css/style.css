@@ -35,7 +35,13 @@ a{
     color: black;
 }
 
-/* Main page */
+/*Nav bar */
+.logo{
+    font-size: 170%;
+    margin-left: 1em;
+    cursor: pointer;
+    width: 120px;
+}
 
 
 

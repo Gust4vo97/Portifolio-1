@@ -141,3 +141,15 @@ footer ul li a{
     height: 500px;
     border-radius: 15px;
 }
+
+.home-about{
+    text-align: justify;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+.home-about p{
+    padding: 1em;
+}
+
+ /* apply form */

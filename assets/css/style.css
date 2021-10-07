@@ -171,3 +171,16 @@ footer ul li a{
 .apply-form form{
     text-align: center;
 }
+
+.apply-form form h1{
+    margin: 1em auto;
+}
+.apply-form form input,textarea{
+    border: 1px solid black;
+    margin-bottom: 1em;
+    padding: 1em;
+    border-radius: 5px;
+    display: block;
+    background: #dce3e7;
+    width: 80%;
+}

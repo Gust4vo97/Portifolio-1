@@ -152,7 +152,7 @@ footer ul li a{
     padding: 1em;
 }
 
- /* apply form */
+ /* apply form style */
 
  .apply-form{
     border: 1px solid black;
@@ -198,3 +198,7 @@ footer ul li a{
     font-weight: 400;
     color: #fff;
 }
+
+.apply-form form button:hover {
+    background: #2f11b6;
+} 

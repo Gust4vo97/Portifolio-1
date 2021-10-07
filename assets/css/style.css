@@ -186,3 +186,15 @@ footer ul li a{
     background: #dce3e7;
     width: 80%;
 }
+.apply-form form button {
+    width: 80%;
+    padding: 10px;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    border-radius: 20px;
+    border: none;
+    background: #040e44; 
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}

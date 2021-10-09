@@ -219,3 +219,22 @@ footer ul li a{
     grid-template-columns: 50% 50%;
 }
 
+#contactus-title{
+    margin-top: 1em;
+}
+#contact-us-p{
+    text-align: center;
+}
+
+.contact-us-main{
+    margin: auto;
+    margin-top: 3em;
+    text-align: center;
+}
+.contact-us-main h3{
+    margin-top: 2em;
+}
+.contact-us-main p{
+    text-align: center;
+}
+

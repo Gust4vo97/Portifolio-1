@@ -2,7 +2,7 @@
 
 
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsice Mockup](https://github.com/Gust4vo97/Portifolio-1/blob/main/assets/images/gaming.jpg)
 
 ## Features 
 

@@ -153,9 +153,10 @@ footer ul li a{
 }
 
 .home-about{
-    text-align: justify;
-    padding-top: auto;
+    text-align: center;
+    padding-top: 4em;
     padding-bottom: auto;
+    justify-content: center;
 }
 
 .home-about p{

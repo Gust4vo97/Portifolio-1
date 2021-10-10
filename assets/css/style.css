@@ -190,6 +190,9 @@ footer ul li a{
     border-color: white;
     background-color: white
 }
+#last-main-grid{
+    border: none;
+}
 
  /* apply form style */
 

@@ -183,6 +183,13 @@ footer ul li a{
     font-weight: bold;
     border-radius: 5px;
 }
+.home-about button:hover {
+    color: red;
+    transition: 0.3s;
+    transform: scale(1.5);
+    border-color: white;
+    background-color: white
+}
 
  /* apply form style */
 

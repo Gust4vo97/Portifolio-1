@@ -161,6 +161,8 @@ footer ul li a{
 
 .home-about p{
     padding: 1em;
+    text-align: justify;
+    font-size: 1.2em;
 }
 
  /* apply form style */

@@ -205,6 +205,8 @@ footer ul li a{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2em;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
 
 }
 .apply-form form p{
@@ -225,7 +227,8 @@ footer ul li a{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    background: #dce3e7;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
     width: 80%;
 }
 .apply-form form button {

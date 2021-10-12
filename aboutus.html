@@ -96,17 +96,36 @@
             <footer>
                 <ul>
                     <li>
-                     <a href="https://www.instagram.com/" target="blank"> <i class="fab fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/" target="blank"> <i class="fab fa-instagram"></i></a>
                     </li>
                     <li>
-                       <a href="https://www.facebook.com/" target="blank"> <i class="fab fa-facebook-square"></i></a>
+                    <a href="https://www.facebook.com/" target="blank"> <i class="fab fa-facebook-square"></i></a>
                     </li>
                     <li>
-                       <a href="https://www.twitter.com/" target="blank"> <i class="fab fa-twitter"></i></a>
+                    <a href="https://www.twitter.com/" target="blank"> <i class="fab fa-twitter"></i></a>
                     </li>
                 </ul>
-               
+            
             </footer>
-           <script src="https://kit.fontawesome.com/cdf148f543.js" crossorigin="anonymous"></script>
+            <script src="https://kit.fontawesome.com/cdf148f543.js" crossorigin="anonymous"></script>
+        
+            <script>
+            let menu=document.querySelector('.mob-menu');
+            let close=document.querySelector('#close');
+            let list=document.querySelector('.mob-list');
+            var show=false;
+            
+            menu.addEventListener('click',function(){
+                if(show==false){
+                    list.style.display="block";
+                    show=true;
+                }
+                else{
+                    list.style.display="none";
+                    show=false;
+                }
+            });
+    
+        </script>
 </body> 
 </html>

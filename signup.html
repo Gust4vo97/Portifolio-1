@@ -28,8 +28,26 @@
             </nav>
         </div>
     </header>
+    <div class="mob-nav">
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <h2> GG WP! </h2>
+                    <h6> Gaming Academy</h6>
+                </a>
+            </div>
 
-     
+            <div class="mob-menu">
+                <a href="#" class="menu"><i class="fa fa-bars"></i></a>
+            </div>
+
+            <div class="mob-list">
+                <a href="index.html">Home</a>
+                <a href="signup.html" class="active-mob">Sign Up</a>
+                <a href="aboutus.html">About Us</a>
+            </div>
+        </nav>
+    </div>
 
     <div class="container">
         <div class="apply-form">
@@ -43,7 +61,7 @@
                 <input type="password" placeholder="Confirm Password">
                 
                 <button type="submit">Sign up</button>
-              </form>
+            </form>
         </div>
     </div>
 
@@ -56,5 +74,24 @@
         </ul>
     </footer>
     <script src="https://kit.fontawesome.com/cdf148f543.js" crossorigin="anonymous"></script>
+
+    <script>
+        let menu=document.querySelector('.mob-menu');
+        let close=document.querySelector('#close');
+        let list=document.querySelector('.mob-list');
+        var show=false;
+        
+        menu.addEventListener('click',function(){
+            if(show==false){
+                list.style.display="block";
+                show=true;
+            }
+            else{
+                list.style.display="none";
+                show=false;
+            }
+        });
+
+    </script>
 </body>
 </html>

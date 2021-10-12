@@ -321,3 +321,16 @@ footer ul li a{
         display: inline-block;
         margin-bottom: 1em;
     }
+    .aboutus-main-grid{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: 1em;
+    }
+    .container{
+        margin-top: 1em;
+    }
+    .footer{
+        display: block;
+    }
+}

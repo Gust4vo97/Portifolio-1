@@ -296,5 +296,9 @@ footer ul li a{
         border-bottom: 2px solid black;
         padding-top: 1px;
     }
-    
+    .image img{
+        height: 300px;
+        /* margin-right: auto; */
+        margin-left: 0.5em;
+    }
 

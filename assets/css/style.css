@@ -301,4 +301,12 @@ footer ul li a{
         /* margin-right: auto; */
         margin-left: 0.5em;
     }
+    .home-about{
+        padding-top: 1em;
+        order: 2;
+    }
+    .image{
+        order: 1;
+        width: 100%;
+    }
 
